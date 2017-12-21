@@ -1,0 +1,30 @@
+class A {
+
+	static void main() {
+		int a, b, c;
+		boolean d, e;
+		String str;
+		
+		a = 4;
+		b = 2;
+		c = -b;
+		
+		if (a>b) {
+			(System.printSln("[OK]"));
+			if (true) {
+				(System.printSln("[OK]"));
+				if ((c*(-1))==b) {
+					(System.printSln("good"));
+				} else {
+					(System.printSln("fail"));
+				}
+			} else {
+				(System.printSln("fail"));
+			}
+		} else {
+			(System.printSln("good"));
+		}
+		
+	}
+
+}

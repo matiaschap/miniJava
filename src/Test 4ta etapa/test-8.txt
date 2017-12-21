@@ -1,0 +1,32 @@
+class A {
+
+	static void main() {
+	
+		B b;
+		C c;
+		
+		b = new B();
+		c = new C(14);
+		
+		(System.printIln(b.a));
+		(System.printIln(c.a));
+		
+	}
+
+}
+
+class B {
+
+	public int a;
+
+	B() {
+		a=54;
+	}
+}
+
+class C extends B {
+
+	C(int x) {
+		a = x;
+	}
+}

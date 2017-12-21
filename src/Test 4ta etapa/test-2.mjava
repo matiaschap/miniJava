@@ -1,0 +1,14 @@
+class A{
+	static void main(){
+		int x;
+		x = 1;
+		(System.printIln(x));
+		{
+			boolean a,b,c;
+			b = false;
+			(System.printBln(b));
+			(System.printBln(c));
+		}
+		int h,i,j;
+	}
+}

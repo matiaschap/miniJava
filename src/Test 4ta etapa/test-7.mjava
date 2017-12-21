@@ -1,0 +1,17 @@
+class B{
+	static void main(){
+		A a;
+		a = new A();
+		a.vacio();
+
+		return;
+		(System.printSln("bug"));
+	}
+}
+class A{
+	public int x;
+	dynamic void vacio(){
+		(System.printSln("gaf"));
+		return;
+	}
+}

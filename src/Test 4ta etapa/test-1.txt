@@ -1,0 +1,29 @@
+// Para probar las llamadas a metodos dinamicos (con argumentos)
+
+class A {
+
+	static void main() {
+	
+		B b;
+		b = new B();
+		b.m1();
+		b.m3();
+		b.m2(5,true);
+	}
+
+}
+
+class B {
+
+	dynamic void m1() {
+		(System.printS("hola"));
+	}
+	dynamic void m2(int a, boolean b) {
+			if (b)
+			(System.printI(a));
+		else 	(System.printI(-a));
+	}
+	dynamic void m3() {
+		(System.printS("chau"));
+	}
+}

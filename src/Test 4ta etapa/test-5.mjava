@@ -1,0 +1,37 @@
+class B{
+	static void main(){
+		A a;
+		a = new A();
+
+		a.q();
+		a.p();
+		a.m();
+
+		a.we(true);
+		a.we(false);
+
+		a.imprimirNumero(1);
+	}
+}
+class A{
+	public int x;
+	dynamic int q(){
+		(System.printCln('n'));
+		return 9;
+	}
+	dynamic void we(boolean b){
+		if(b)
+			(System.printSln("Hola mundo"));
+		else (System.printSln("holis"));
+	}
+	dynamic void imprimirNumero(int i){
+		(System.printIln(i));
+	}
+	dynamic int p(){
+		(System.printCln('d'));
+		return 10;
+	}
+	dynamic void m(){
+		(System.printSln("dir"));
+	}
+}

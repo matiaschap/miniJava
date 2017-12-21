@@ -1,0 +1,23 @@
+class A {
+
+	static void main() {
+		int a, b;
+		boolean d;
+		String str;
+		a = 6;
+		b = 5;
+		d = true;
+		str = "Hola";
+		(System.printIln(a));
+		(System.printIln(b));
+		(System.printBln(d));
+		(System.printSln(str));
+		
+		a = 10;
+		str = "check 'a', now ";
+		(System.printS(str));
+		(System.printIln(a));
+
+	}
+
+}

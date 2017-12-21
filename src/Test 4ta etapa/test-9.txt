@@ -1,0 +1,49 @@
+class A {
+
+	static void main() {
+	
+		(B.u());
+	
+		int t;
+		t = (C.v());
+		
+		if (t==8) {
+			(System.printSln("es 8"));
+		} else {
+			(System.printSln("no es 8"));
+		}
+		
+		boolean w;
+		w = (C.fg());
+		
+		if (!w) {
+			(System.printSln("true"));
+		} else {
+			(System.printSln("not true"));
+		}
+		
+	}
+
+}
+
+class B {
+
+	static void u() {
+		(System.printSln("en método u"));
+		(System.printSln("true"));
+	}
+}
+
+class C {
+
+
+	static int v() {
+		(System.printSln("en método v"));
+		return 2;
+	}
+	
+	static boolean fg() {
+		(System.printSln("en método fg"));
+		return false;
+	}
+}

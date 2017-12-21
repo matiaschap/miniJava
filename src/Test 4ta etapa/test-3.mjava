@@ -1,0 +1,18 @@
+class A{
+	static void main(){
+		int x,z;
+		x = -100;
+		z = (B.t());
+		(System.printIln(z));
+	}
+}
+
+class B{
+	static int t(){
+		int m;
+		m = 10;
+		(System.printS("mi clase"));
+		(System.printIln(m));
+		return m;
+	}
+}

@@ -1,0 +1,10 @@
+class Principal{
+	static void main(){
+		char r;
+		r = setchar();
+		(System.printC(r));
+	}
+	static char setchar(){
+		return 'r';
+	}
+}
